@@ -1,0 +1,300 @@
+{
+ "meta": {
+  "purpose": "multi-needle ordering probe",
+  "variants": "direct,ntk_x14",
+  "lengths": [
+   24576
+  ],
+  "questions": [
+   "first",
+   "last"
+  ],
+  "samples": 3,
+  "needles": 3,
+  "needle_depths": [
+   0.15,
+   0.5,
+   0.85
+  ],
+  "seed": 2025,
+  "weights": "/autodl-fs/data/ICASSP/LLaDA_8B"
+ },
+ "rows": [
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 24576,
+   "question": "first",
+   "sample": 0,
+   "n_tokens": 24570,
+   "numbers": [
+    40791,
+    8472,
+    96359
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "40791",
+   "prediction": "Roman culture absorbed and transformed the traditions of the Greeks, the Etruscans and the peoples of the Mediterranean world. Philosophy, literature, art and architecture",
+   "score": 1.7567567567567566,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 24576,
+   "question": "first",
+   "sample": 1,
+   "n_tokens": 24571,
+   "numbers": [
+    42608,
+    98378,
+    26218
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "42608",
+   "prediction": "Roman culture absorbed and transformed the traditions of the Greeks, the Etruscans and the peoples of the Mediterranean world. Philosophy, literature, art and architecture all",
+   "score": 1.7218543046357617,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 24576,
+   "question": "first",
+   "sample": 2,
+   "n_tokens": 24570,
+   "numbers": [
+    91125,
+    9704,
+    93091
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "91125",
+   "prediction": "Roman culture absorbed and transformed the traditions of the Greeks, the Etruscans and the peoples of the Mediterranean world. Philosophy, literature, art and architecture",
+   "score": 1.7567567567567566,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 24576,
+   "question": "last",
+   "sample": 0,
+   "n_tokens": 24571,
+   "numbers": [
+    33039,
+    94092,
+    14871
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "14871",
+   "prediction": "Roman culture absorbed and transformed the traditions of the Greeks, the Etruscans and the peoples of the Mediterranean world. Philosophy, literature, art and architecture all",
+   "score": 1.7218543046357617,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 24576,
+   "question": "last",
+   "sample": 1,
+   "n_tokens": 24571,
+   "numbers": [
+    38257,
+    20979,
+    64440
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "64440",
+   "prediction": "Roman culture absorbed and transformed the traditions of the Greeks, the Etruscans and the peoples of the Mediterranean world. Philosophy, literature, art and architecture all",
+   "score": 1.7218543046357617,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 24576,
+   "question": "last",
+   "sample": 2,
+   "n_tokens": 24571,
+   "numbers": [
+    37529,
+    54264,
+    89995
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "89995",
+   "prediction": "Roman culture absorbed and transformed the traditions of the Greeks, the Etruscans and the peoples of the Mediterranean world. Philosophy, literature, art and architecture all",
+   "score": 1.7218543046357617,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 24576,
+   "question": "first",
+   "sample": 0,
+   "n_tokens": 24570,
+   "numbers": [
+    40791,
+    8472,
+    96359
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "40791",
+   "prediction": "The first magic number is 1453.\nThe empire faced repeated challenges from barbarian invasions, economic decline and internal political instability.\nThe",
+   "score": 3.0534351145038174,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 24576,
+   "question": "first",
+   "sample": 1,
+   "n_tokens": 24571,
+   "numbers": [
+    42608,
+    98378,
+    26218
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "42608",
+   "prediction": "The first magic number is 1453 AD.\nThe empire faced repeated challenges from barbarian invasions, economic decline and internal political.\nThe",
+   "score": 2.9508196721311486,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 24576,
+   "question": "first",
+   "sample": 2,
+   "n_tokens": 24570,
+   "numbers": [
+    91125,
+    9704,
+    93091
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "91125",
+   "prediction": "The first magic number is 9704.\nThe empire faced repeated challenges from barbarian invasions, economic decline and internal political instability.\nThe",
+   "score": 3.0534351145038174,
+   "emitted_rank": 1
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 24576,
+   "question": "last",
+   "sample": 0,
+   "n_tokens": 24571,
+   "numbers": [
+    33039,
+    94092,
+    14871
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "14871",
+   "prediction": "The special magic number is 1453.\nThe empire faced repeated challenges from barbarian invasions, economic decline and internal political instability.\nThe",
+   "score": 3.909774436090226,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 24576,
+   "question": "last",
+   "sample": 1,
+   "n_tokens": 24571,
+   "numbers": [
+    38257,
+    20979,
+    64440
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "64440",
+   "prediction": "The special magic number is 64440.\nThe empire faced repeated challenges from barbarian invasions, economic decline and internal political.\nThe",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 24576,
+   "question": "last",
+   "sample": 2,
+   "n_tokens": 24571,
+   "numbers": [
+    37529,
+    54264,
+    89995
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "89995",
+   "prediction": "The special magic number is 54264.\nThe empire faced repeated challenges from barbarian invasions, economic decline and internal political.\nThe",
+   "score": 3.9024390243902434,
+   "emitted_rank": 1
+  }
+ ]
+}

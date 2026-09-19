@@ -1,0 +1,446 @@
+{
+ "meta": {
+  "purpose": "B2 freq-band controls + YaRN tuning",
+  "scale": 14.0,
+  "band_modes": [],
+  "yarn_cfgs": [
+   [
+    4.0,
+    1.0,
+    16.0
+   ]
+  ],
+  "lengths": [
+   8192,
+   24576
+  ],
+  "depths": [
+   0.5
+  ],
+  "samples": 5,
+  "seed": 2025,
+  "weights": "/autodl-fs/data/ICASSP/LLaDA_8B"
+ },
+ "rows": [
+  {
+   "variant": "direct",
+   "spec": {},
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 0,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 10376.",
+   "keyword": "10376",
+   "prediction": "The special magic number is 10376.\n\nThe answer is: The special magic number is 10376.",
+   "score": 100.0
+  },
+  {
+   "variant": "direct",
+   "spec": {},
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 1,
+   "n_tokens": 8209,
+   "needle": "The special magic number is 9741.",
+   "keyword": "9741",
+   "prediction": "The special magic number is 9741.\n\nSo, the answer is: The special magic number is 9741.",
+   "score": 100.0
+  },
+  {
+   "variant": "direct",
+   "spec": {},
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 2,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 93841.",
+   "keyword": "93841",
+   "prediction": "The special magic number is 93841.\n\nAnswer: \nThe special magic number is 93841.",
+   "score": 100.0
+  },
+  {
+   "variant": "direct",
+   "spec": {},
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 3,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 70559.",
+   "keyword": "70559",
+   "prediction": "The special magic number is 70559.\n\nAnswer: \nThe special magic number is 70559.",
+   "score": 100.0
+  },
+  {
+   "variant": "direct",
+   "spec": {},
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 4,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 24896.",
+   "keyword": "24896",
+   "prediction": "The special magic number is 24896.\n\nThe answer is: The special magic number is 24896.",
+   "score": 100.0
+  },
+  {
+   "variant": "direct",
+   "spec": {},
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 0,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 84719.",
+   "keyword": "84719",
+   "prediction": "The special magic number is 500. The special magic number is 500. The special magic number is 50.\nThe",
+   "score": 5.783132530120483
+  },
+  {
+   "variant": "direct",
+   "spec": {},
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 1,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 15262.",
+   "keyword": "15262",
+   "prediction": "The special magic number is 500. The special magic number is 500. The special magic number is 50.\nThe",
+   "score": 6.024096385542169
+  },
+  {
+   "variant": "direct",
+   "spec": {},
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 2,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 64558.",
+   "keyword": "64558",
+   "prediction": "The special magic number is 500. The special magic number is 500. The special magic number is 50.\nThe",
+   "score": 6.265060240963856
+  },
+  {
+   "variant": "direct",
+   "spec": {},
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 3,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 22453.",
+   "keyword": "22453",
+   "prediction": "The special magic number is 500. The special magic number is 500. The special magic number is 50.\nThe",
+   "score": 6.024096385542169
+  },
+  {
+   "variant": "direct",
+   "spec": {},
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 4,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 36164.",
+   "keyword": "36164",
+   "prediction": "The special magic number is 500. The special magic number is 500. The special magic number is 50.\nThe",
+   "score": 5.783132530120483
+  },
+  {
+   "variant": "yarn",
+   "spec": {
+    "beta_fast": 4.0,
+    "beta_slow": 1.0,
+    "factor": 16.0
+   },
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 0,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 10376.",
+   "keyword": "10376",
+   "prediction": "The special magic number is 10376.\nThe special magic number is 10376.\nThe special magic number\nThe",
+   "score": 100.0
+  },
+  {
+   "variant": "yarn",
+   "spec": {
+    "beta_fast": 4.0,
+    "beta_slow": 1.0,
+    "factor": 16.0
+   },
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 1,
+   "n_tokens": 8209,
+   "needle": "The special magic number is 9741.",
+   "keyword": "9741",
+   "prediction": "The special magic number is 9741.\nThe special magic number is 9741.\n\n9741.\nThe",
+   "score": 100.0
+  },
+  {
+   "variant": "yarn",
+   "spec": {
+    "beta_fast": 4.0,
+    "beta_slow": 1.0,
+    "factor": 16.0
+   },
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 2,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 93841.",
+   "keyword": "93841",
+   "prediction": "The special magic number is 93841.\nThe special magic number is 93841.\nThe special magic number\nThe",
+   "score": 100.0
+  },
+  {
+   "variant": "yarn",
+   "spec": {
+    "beta_fast": 4.0,
+    "beta_slow": 1.0,
+    "factor": 16.0
+   },
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 3,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 70559.",
+   "keyword": "70559",
+   "prediction": "The special magic number is 70559.\nThe special magic number is 70559\nThe special magic number is\nThe",
+   "score": 100.0
+  },
+  {
+   "variant": "yarn",
+   "spec": {
+    "beta_fast": 4.0,
+    "beta_slow": 1.0,
+    "factor": 16.0
+   },
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 4,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 24896.",
+   "keyword": "24896",
+   "prediction": "The special magic number is 24896.\nThe special magic number is 24896.\nThe special magic number\nThe",
+   "score": 100.0
+  },
+  {
+   "variant": "yarn",
+   "spec": {
+    "beta_fast": 4.0,
+    "beta_slow": 1.0,
+    "factor": 16.0
+   },
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 0,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 84719.",
+   "keyword": "84719",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in the founding of the Roman BC and ending with the fall of the",
+   "score": 2.3076923076923084
+  },
+  {
+   "variant": "yarn",
+   "spec": {
+    "beta_fast": 4.0,
+    "beta_slow": 1.0,
+    "factor": 16.0
+   },
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 1,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 15262.",
+   "keyword": "15262",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in the founding of the BC and the ending with the fall of the",
+   "score": 2.34375
+  },
+  {
+   "variant": "yarn",
+   "spec": {
+    "beta_fast": 4.0,
+    "beta_slow": 1.0,
+    "factor": 16.0
+   },
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 2,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 64558.",
+   "keyword": "64558",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in the founding of the Roman BC and ending with the fall of the",
+   "score": 2.3076923076923084
+  },
+  {
+   "variant": "yarn",
+   "spec": {
+    "beta_fast": 4.0,
+    "beta_slow": 1.0,
+    "factor": 16.0
+   },
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 3,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 22453.",
+   "keyword": "22453",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in the founding of the BC and the ending with the fall of the",
+   "score": 2.34375
+  },
+  {
+   "variant": "yarn",
+   "spec": {
+    "beta_fast": 4.0,
+    "beta_slow": 1.0,
+    "factor": 16.0
+   },
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 4,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 36164.",
+   "keyword": "36164",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in the founding of the BC and the ending with the fall of the",
+   "score": 2.34375
+  },
+  {
+   "variant": "ntk_x14",
+   "spec": {
+    "scale": 14.0
+   },
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 0,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 10376.",
+   "keyword": "10376",
+   "prediction": "The special magic number is The special magic number is 10376.\nThe special magic number is 10376.",
+   "score": 100.0
+  },
+  {
+   "variant": "ntk_x14",
+   "spec": {
+    "scale": 14.0
+   },
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 1,
+   "n_tokens": 8209,
+   "needle": "The special magic number is 9741.",
+   "keyword": "9741",
+   "prediction": "The special magic number is 9741.\n\nThe special magic number is\nThe special magic number is 9741.",
+   "score": 100.0
+  },
+  {
+   "variant": "ntk_x14",
+   "spec": {
+    "scale": 14.0
+   },
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 2,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 93841.",
+   "keyword": "93841",
+   "prediction": "The special magic number is \none of the enduring legacies of Roman civilization.\nThe special magic number is 93841.",
+   "score": 100.0
+  },
+  {
+   "variant": "ntk_x14",
+   "spec": {
+    "scale": 14.0
+   },
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 3,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 70559.",
+   "keyword": "70559",
+   "prediction": "The special magic number is \none of the enduring legacies of Roman civilization.\nThe special magic number is 70559.",
+   "score": 100.0
+  },
+  {
+   "variant": "ntk_x14",
+   "spec": {
+    "scale": 14.0
+   },
+   "context_tokens": 8192,
+   "depth": 0.5,
+   "sample": 4,
+   "n_tokens": 8162,
+   "needle": "The special magic number is 24896.",
+   "keyword": "24896",
+   "prediction": "The special magic number is The special magic number is 24896.\nThe special magic number is 24896.",
+   "score": 100.0
+  },
+  {
+   "variant": "ntk_x14",
+   "spec": {
+    "scale": 14.0
+   },
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 0,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 84719.",
+   "keyword": "84719",
+   "prediction": "During the height of the empire, Roman legions maintained a vast network of roads, aqueducts and fortifications that stretched from Britain in the west to Mes",
+   "score": 2.255639097744362
+  },
+  {
+   "variant": "ntk_x14",
+   "spec": {
+    "scale": 14.0
+   },
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 1,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 15262.",
+   "keyword": "15262",
+   "prediction": "During the height of the empire, Roman legions maintained a vast network of roads, aqueducts and fortifications that stretched from Britain in the west to Mes",
+   "score": 2.255639097744362
+  },
+  {
+   "variant": "ntk_x14",
+   "spec": {
+    "scale": 14.0
+   },
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 2,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 64558.",
+   "keyword": "64558",
+   "prediction": "The special magic number is 64558.\nThe empire faced repeated challenges from barbarian invasions, economic decline and internal political instability. The",
+   "score": 100.0
+  },
+  {
+   "variant": "ntk_x14",
+   "spec": {
+    "scale": 14.0
+   },
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 3,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 22453.",
+   "keyword": "22453",
+   "prediction": "The special magic number is 22453.\nThe empire faced repeated challenges from barbarian invasions, economic decline and internal political instability. The",
+   "score": 100.0
+  },
+  {
+   "variant": "ntk_x14",
+   "spec": {
+    "scale": 14.0
+   },
+   "context_tokens": 24576,
+   "depth": 0.5,
+   "sample": 4,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 36164.",
+   "keyword": "36164",
+   "prediction": "During the height of the empire, Roman legions maintained a vast network of roads, aqueducts and fortifications that stretched from Britain in the west to Mes",
+   "score": 2.255639097744362
+  }
+ ]
+}

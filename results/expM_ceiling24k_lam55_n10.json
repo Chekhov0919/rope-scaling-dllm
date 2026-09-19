@@ -1,0 +1,147 @@
+{
+ "meta": {
+  "purpose": "unified method matrix (R1/R2)",
+  "methods": "ntk_x55",
+  "lengths": [
+   24576
+  ],
+  "depths": [
+   0.25
+  ],
+  "samples": 10,
+  "seed": 2025,
+  "weights": "/autodl-fs/data/ICASSP/LLaDA_8B"
+ },
+ "rows": [
+  {
+   "method": "ntk",
+   "factor": 55.0,
+   "spec": "ntk_x55",
+   "context_tokens": 24576,
+   "depth": 0.25,
+   "sample": 0,
+   "n_tokens": 24538,
+   "needle": "The special magic number is 50074.",
+   "keyword": "50074",
+   "prediction": "The special magic number is 50074. The empire faced repeated challenges from barbarian invasions, economic decline and internal political instability.\nThe",
+   "score": 100.0
+  },
+  {
+   "method": "ntk",
+   "factor": 55.0,
+   "spec": "ntk_x55",
+   "context_tokens": 24576,
+   "depth": 0.25,
+   "sample": 1,
+   "n_tokens": 24538,
+   "needle": "The special magic number is 19539.",
+   "keyword": "19539",
+   "prediction": "The special magic number is 1453.\nThe Roman Empire ended with the fall of Constantinople in 1453 AD.\nThe",
+   "score": 6.279069767441861
+  },
+  {
+   "method": "ntk",
+   "factor": 55.0,
+   "spec": "ntk_x55",
+   "context_tokens": 24576,
+   "depth": 0.25,
+   "sample": 2,
+   "n_tokens": 24538,
+   "needle": "The special magic number is 84366.",
+   "keyword": "84366",
+   "prediction": "The special magic number is 84366. The empire faced repeated challenges from barbarian invasions, economic decline and internal political instability.\nThe",
+   "score": 100.0
+  },
+  {
+   "method": "ntk",
+   "factor": 55.0,
+   "spec": "ntk_x55",
+   "context_tokens": 24576,
+   "depth": 0.25,
+   "sample": 3,
+   "n_tokens": 24538,
+   "needle": "The special magic number is 40296.",
+   "keyword": "40296",
+   "prediction": "The special magic number is 40296. The empire faced repeated challenges from barbarian invasions, economic decline and internal political instability.\nThe",
+   "score": 100.0
+  },
+  {
+   "method": "ntk",
+   "factor": 55.0,
+   "spec": "ntk_x55",
+   "context_tokens": 24576,
+   "depth": 0.25,
+   "sample": 4,
+   "n_tokens": 24538,
+   "needle": "The special magic number is 68250.",
+   "keyword": "68250",
+   "prediction": "The special magic number is 68250. The empire faced repeated challenges from barbarian invasions, economic decline and internal political instability.\nThe",
+   "score": 100.0
+  },
+  {
+   "method": "ntk",
+   "factor": 55.0,
+   "spec": "ntk_x55",
+   "context_tokens": 24576,
+   "depth": 0.25,
+   "sample": 5,
+   "n_tokens": 24537,
+   "needle": "The special magic number is 4133.",
+   "keyword": "4133",
+   "prediction": "The special magic number is 4133.\nThe empire faced repeated challenges from barbarian invasions, economic decline and internal political instability.\nThe",
+   "score": 100.0
+  },
+  {
+   "method": "ntk",
+   "factor": 55.0,
+   "spec": "ntk_x55",
+   "context_tokens": 24576,
+   "depth": 0.25,
+   "sample": 6,
+   "n_tokens": 24538,
+   "needle": "The special magic number is 75980.",
+   "keyword": "75980",
+   "prediction": "The special magic number is 753 BC.\n3 BC and ending with the fall of Constantinople in 1453 AD.\nThe",
+   "score": 6.499999999999999
+  },
+  {
+   "method": "ntk",
+   "factor": 55.0,
+   "spec": "ntk_x55",
+   "context_tokens": 24576,
+   "depth": 0.25,
+   "sample": 7,
+   "n_tokens": 24538,
+   "needle": "The special magic number is 72703.",
+   "keyword": "72703",
+   "prediction": "The special magic number is 753 BC.\n3 BC and ending with the fall of Constantinople in 1453 AD.\nThe",
+   "score": 6.499999999999999
+  },
+  {
+   "method": "ntk",
+   "factor": 55.0,
+   "spec": "ntk_x55",
+   "context_tokens": 24576,
+   "depth": 0.25,
+   "sample": 8,
+   "n_tokens": 24538,
+   "needle": "The special magic number is 20075.",
+   "keyword": "20075",
+   "prediction": "The special magic number is 20075. The empire faced repeated challenges from barbarian invasions, economic decline and internal political instability.\nThe",
+   "score": 100.0
+  },
+  {
+   "method": "ntk",
+   "factor": 55.0,
+   "spec": "ntk_x55",
+   "context_tokens": 24576,
+   "depth": 0.25,
+   "sample": 9,
+   "n_tokens": 24538,
+   "needle": "The special magic number is 30060.",
+   "keyword": "30060",
+   "prediction": "The special magic number is 30060. The empire faced repeated challenges from barbarian invasions, economic decline and internal political instability.\nThe",
+   "score": 100.0
+  }
+ ]
+}

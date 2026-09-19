@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "purpose": "unified method matrix (R1/R2)",
+  "methods": "ntk_x31",
+  "lengths": [
+   32768
+  ],
+  "depths": [
+   0.9,
+   1.0
+  ],
+  "samples": 5,
+  "seed": 2025,
+  "weights": "/autodl-fs/data/ICASSP/LLaDA_8B"
+ },
+ "rows": [
+  {
+   "method": "ntk",
+   "factor": 31.0,
+   "spec": "ntk_x31",
+   "context_tokens": 32768,
+   "depth": 0.9,
+   "sample": 0,
+   "n_tokens": 32800,
+   "needle": "The special magic number is 8668.",
+   "keyword": "8668",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in 753 BC and ending with the fall of Constantinople",
+   "score": 2.6016260162601634
+  },
+  {
+   "method": "ntk",
+   "factor": 31.0,
+   "spec": "ntk_x31",
+   "context_tokens": 32768,
+   "depth": 0.9,
+   "sample": 1,
+   "n_tokens": 32801,
+   "needle": "The special magic number is 38594.",
+   "keyword": "38594",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in 753 BC and ending with the fall of Constantinople",
+   "score": 2.6016260162601634
+  },
+  {
+   "method": "ntk",
+   "factor": 31.0,
+   "spec": "ntk_x31",
+   "context_tokens": 32768,
+   "depth": 0.9,
+   "sample": 2,
+   "n_tokens": 32801,
+   "needle": "The special magic number is 38329.",
+   "keyword": "38329",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in 753 BC and ending with the fall of Constantinople",
+   "score": 2.6016260162601634
+  },
+  {
+   "method": "ntk",
+   "factor": 31.0,
+   "spec": "ntk_x31",
+   "context_tokens": 32768,
+   "depth": 0.9,
+   "sample": 3,
+   "n_tokens": 32801,
+   "needle": "The special magic number is 49192.",
+   "keyword": "49192",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in 753 BC and ending with the fall of Constantinople",
+   "score": 2.6016260162601634
+  },
+  {
+   "method": "ntk",
+   "factor": 31.0,
+   "spec": "ntk_x31",
+   "context_tokens": 32768,
+   "depth": 0.9,
+   "sample": 4,
+   "n_tokens": 32801,
+   "needle": "The special magic number is 34264.",
+   "keyword": "34264",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in 753 BC and ending with the fall of Constantinople",
+   "score": 2.6016260162601634
+  },
+  {
+   "method": "ntk",
+   "factor": 31.0,
+   "spec": "ntk_x31",
+   "context_tokens": 32768,
+   "depth": 1.0,
+   "sample": 0,
+   "n_tokens": 32801,
+   "needle": "The special magic number is 34630.",
+   "keyword": "34630",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in 753 BC and ending with the fall of Constantinople",
+   "score": 2.6016260162601634
+  },
+  {
+   "method": "ntk",
+   "factor": 31.0,
+   "spec": "ntk_x31",
+   "context_tokens": 32768,
+   "depth": 1.0,
+   "sample": 1,
+   "n_tokens": 32801,
+   "needle": "The special magic number is 54523.",
+   "keyword": "54523",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in 753 BC and ending with the fall of Constantinople",
+   "score": 2.6016260162601634
+  },
+  {
+   "method": "ntk",
+   "factor": 31.0,
+   "spec": "ntk_x31",
+   "context_tokens": 32768,
+   "depth": 1.0,
+   "sample": 2,
+   "n_tokens": 32800,
+   "needle": "The special magic number is 4108.",
+   "keyword": "4108",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in 753 BC and ending with the fall of Constantinople",
+   "score": 2.6016260162601634
+  },
+  {
+   "method": "ntk",
+   "factor": 31.0,
+   "spec": "ntk_x31",
+   "context_tokens": 32768,
+   "depth": 1.0,
+   "sample": 3,
+   "n_tokens": 32801,
+   "needle": "The special magic number is 23295.",
+   "keyword": "23295",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in 753 BC and ending with the fall of Constantinople",
+   "score": 2.6016260162601634
+  },
+  {
+   "method": "ntk",
+   "factor": 31.0,
+   "spec": "ntk_x31",
+   "context_tokens": 32768,
+   "depth": 1.0,
+   "sample": 4,
+   "n_tokens": 32800,
+   "needle": "The special magic number is 8915.",
+   "keyword": "8915",
+   "prediction": "The history of the Roman Empire spans over a thousand years, beginning with the founding of Rome in 753 BC and ending with the fall of Constantinople",
+   "score": 2.6016260162601634
+  }
+ ]
+}

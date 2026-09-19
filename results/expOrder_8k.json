@@ -1,0 +1,1174 @@
+{
+ "meta": {
+  "purpose": "multi-needle ordering probe",
+  "variants": "direct,ntk_x14,ntk_x55,band_low_only,pi_x8",
+  "lengths": [
+   8192
+  ],
+  "questions": [
+   "first",
+   "last"
+  ],
+  "samples": 5,
+  "needles": 3,
+  "needle_depths": [
+   0.15,
+   0.5,
+   0.85
+  ],
+  "seed": 2025,
+  "weights": "/autodl-fs/data/ICASSP/LLaDA_8B"
+ },
+ "rows": [
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 0,
+   "n_tokens": 8196,
+   "numbers": [
+    21538,
+    18191,
+    53388
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "21538",
+   "prediction": "The first magic number is 53388.",
+   "score": 12.413793103448278,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 1,
+   "n_tokens": 8196,
+   "numbers": [
+    95852,
+    66656,
+    42882
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "95852",
+   "prediction": "The first magic number is 42882.",
+   "score": 13.103448275862071,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 2,
+   "n_tokens": 8195,
+   "numbers": [
+    9129,
+    92009,
+    62514
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "9129",
+   "prediction": "The first magic number is 62514.",
+   "score": 11.428571428571429,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 3,
+   "n_tokens": 8196,
+   "numbers": [
+    15660,
+    83277,
+    77485
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "15660",
+   "prediction": "The first magic number is 77485.",
+   "score": 11.724137931034484,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 4,
+   "n_tokens": 8196,
+   "numbers": [
+    54423,
+    73584,
+    96513
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "54423",
+   "prediction": "The first magic number is 96513.",
+   "score": 12.413793103448278,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 0,
+   "n_tokens": 8194,
+   "numbers": [
+    4264,
+    2916,
+    22738
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "22738",
+   "prediction": "The last magic number is 22738.\nThe final answer is: The last magic number is 22738.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 1,
+   "n_tokens": 8195,
+   "numbers": [
+    66470,
+    3134,
+    47873
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "47873",
+   "prediction": "The last magic number is 47873.\nThe final answer is: The last magic number is 47873.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 2,
+   "n_tokens": 8196,
+   "numbers": [
+    80626,
+    18919,
+    33289
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "33289",
+   "prediction": "The last magic number is 33289.\nThe final answer is: The last magic number is 33289.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 3,
+   "n_tokens": 8196,
+   "numbers": [
+    82722,
+    37804,
+    57758
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "57758",
+   "prediction": "The last magic number is 57758.\nThe final answer is: The last magic number is 57758.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "direct",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 4,
+   "n_tokens": 8196,
+   "numbers": [
+    43471,
+    85444,
+    92318
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "92318",
+   "prediction": "The last magic number is 92318.\nThe final answer is: The last magic number is 92318.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 0,
+   "n_tokens": 8196,
+   "numbers": [
+    21538,
+    18191,
+    53388
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "21538",
+   "prediction": "The first magic number that appears in the document is 21538.\nThe first magic number is 21538.",
+   "score": 100.0,
+   "emitted_rank": 0
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 1,
+   "n_tokens": 8196,
+   "numbers": [
+    95852,
+    66656,
+    42882
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "95852",
+   "prediction": "The first magic number that appears in the document is 95852.\nThe first magic number is 95852.",
+   "score": 100.0,
+   "emitted_rank": 0
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 2,
+   "n_tokens": 8195,
+   "numbers": [
+    9129,
+    92009,
+    62514
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "9129",
+   "prediction": "The first magic number appears in the document in the text is 9129.\nThe first magic number is 9129.",
+   "score": 100.0,
+   "emitted_rank": 0
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 3,
+   "n_tokens": 8196,
+   "numbers": [
+    15660,
+    83277,
+    77485
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "15660",
+   "prediction": "The first magic number that appears in the document is 15660.\nThe first magic number is 15660.",
+   "score": 100.0,
+   "emitted_rank": 0
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 4,
+   "n_tokens": 8196,
+   "numbers": [
+    54423,
+    73584,
+    96513
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "54423",
+   "prediction": "The first magic number that appears in the document is 54423.\nThe first magic number is 54423.",
+   "score": 100.0,
+   "emitted_rank": 0
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 0,
+   "n_tokens": 8194,
+   "numbers": [
+    4264,
+    2916,
+    22738
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "22738",
+   "prediction": "The last magic number appears last in the document is 22738.\nThe last magic number is 22738.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 1,
+   "n_tokens": 8195,
+   "numbers": [
+    66470,
+    3134,
+    47873
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "47873",
+   "prediction": "The last magic number appears last in the document is 47873.\nThe last magic number is 47873.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 2,
+   "n_tokens": 8196,
+   "numbers": [
+    80626,
+    18919,
+    33289
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "33289",
+   "prediction": "The last magic number appears last in the document is 33289.\nThe last magic number is 33289.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 3,
+   "n_tokens": 8196,
+   "numbers": [
+    82722,
+    37804,
+    57758
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "57758",
+   "prediction": "The last magic number appears last in the document is 57758.\nThe last magic number is 57758.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x14",
+   "method": "ntk",
+   "factor": 14.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 4,
+   "n_tokens": 8196,
+   "numbers": [
+    43471,
+    85444,
+    92318
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "92318",
+   "prediction": "The last magic number appears last in the document is 92318.\nThe last magic number is 92318.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x55",
+   "method": "ntk",
+   "factor": 55.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 0,
+   "n_tokens": 8196,
+   "numbers": [
+    21538,
+    18191,
+    53388
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "21538",
+   "prediction": "The first magic number that appears in the document is 21538.\nThe first magic number is 21538.",
+   "score": 100.0,
+   "emitted_rank": 0
+  },
+  {
+   "variant": "ntk_x55",
+   "method": "ntk",
+   "factor": 55.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 1,
+   "n_tokens": 8196,
+   "numbers": [
+    95852,
+    66656,
+    42882
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "95852",
+   "prediction": "The first magic number that appears in the document is 95852.\nThe first magic number is 95852.",
+   "score": 100.0,
+   "emitted_rank": 0
+  },
+  {
+   "variant": "ntk_x55",
+   "method": "ntk",
+   "factor": 55.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 2,
+   "n_tokens": 8195,
+   "numbers": [
+    9129,
+    92009,
+    62514
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "9129",
+   "prediction": "The first magic number is 9129 or 92009.\nThe first magic number is 9129.",
+   "score": 100.0,
+   "emitted_rank": "multiple"
+  },
+  {
+   "variant": "ntk_x55",
+   "method": "ntk",
+   "factor": 55.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 3,
+   "n_tokens": 8196,
+   "numbers": [
+    15660,
+    83277,
+    77485
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "15660",
+   "prediction": "The first magic number that appears in the document is 15660.\nThe first magic number is 15660.",
+   "score": 100.0,
+   "emitted_rank": 0
+  },
+  {
+   "variant": "ntk_x55",
+   "method": "ntk",
+   "factor": 55.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 4,
+   "n_tokens": 8196,
+   "numbers": [
+    54423,
+    73584,
+    96513
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "54423",
+   "prediction": "The first magic number that appears in the document is 54423.\nThe first magic number is 54423.",
+   "score": 100.0,
+   "emitted_rank": 0
+  },
+  {
+   "variant": "ntk_x55",
+   "method": "ntk",
+   "factor": 55.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 0,
+   "n_tokens": 8194,
+   "numbers": [
+    4264,
+    2916,
+    22738
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "22738",
+   "prediction": "The last magic number that appears in the document is 22738.\nThe last magic number is 22738.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x55",
+   "method": "ntk",
+   "factor": 55.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 1,
+   "n_tokens": 8195,
+   "numbers": [
+    66470,
+    3134,
+    47873
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "47873",
+   "prediction": "The last magic number that appears in the document is 47873.\nThe last magic number is 47873.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x55",
+   "method": "ntk",
+   "factor": 55.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 2,
+   "n_tokens": 8196,
+   "numbers": [
+    80626,
+    18919,
+    33289
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "33289",
+   "prediction": "The last magic number that appears in the document is 33289.\nThe last magic number is 33289.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x55",
+   "method": "ntk",
+   "factor": 55.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 3,
+   "n_tokens": 8196,
+   "numbers": [
+    82722,
+    37804,
+    57758
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "57758",
+   "prediction": "The last magic number that appears in the document is 57758.\nThe last magic number is 57758.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "ntk_x55",
+   "method": "ntk",
+   "factor": 55.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 4,
+   "n_tokens": 8196,
+   "numbers": [
+    43471,
+    85444,
+    92318
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "92318",
+   "prediction": "The last magic number that appears in the document is 92318.\nThe last magic number is 92318.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "band_low_only",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 0,
+   "n_tokens": 8196,
+   "numbers": [
+    21538,
+    18191,
+    53388
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "21538",
+   "prediction": "The first magic number is 753 BC.\nThe first magic number is 753 BC and 1453 AD.",
+   "score": 7.301587301587303,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "band_low_only",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 1,
+   "n_tokens": 8196,
+   "numbers": [
+    95852,
+    66656,
+    42882
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "95852",
+   "prediction": "The first magic number is 753 BC.\nThe first magic number is 1453.\n1453 AD.",
+   "score": 7.333333333333335,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "band_low_only",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 2,
+   "n_tokens": 8195,
+   "numbers": [
+    9129,
+    92009,
+    62514
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "9129",
+   "prediction": "The first magic number is 753 BC.\nThe first magic number is \nThe first magic number is 753 BC.",
+   "score": 5.600000000000001,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "band_low_only",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 3,
+   "n_tokens": 8196,
+   "numbers": [
+    15660,
+    83277,
+    77485
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "15660",
+   "prediction": "The first magic number is 753 BC.\nThe first magic number is 753 BC and 1453 AD.",
+   "score": 6.984126984126984,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "band_low_only",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 4,
+   "n_tokens": 8196,
+   "numbers": [
+    54423,
+    73584,
+    96513
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "54423",
+   "prediction": "The first magic number is 753 BC.\nThe first magic number is \nThe first magic number is 753 BC.",
+   "score": 5.600000000000001,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "band_low_only",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 0,
+   "n_tokens": 8194,
+   "numbers": [
+    4264,
+    2916,
+    22738
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "22738",
+   "prediction": "The last magic number is 1453.\nThe last magic number is 1453.\n1453 AD.",
+   "score": 7.719298245614034,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "band_low_only",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 1,
+   "n_tokens": 8195,
+   "numbers": [
+    66470,
+    3134,
+    47873
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "47873",
+   "prediction": "The last magic number is 66470.\nThe final answer is: The last magic number is 66470.",
+   "score": 6.666666666666668,
+   "emitted_rank": 0
+  },
+  {
+   "variant": "band_low_only",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 2,
+   "n_tokens": 8196,
+   "numbers": [
+    80626,
+    18919,
+    33289
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "33289",
+   "prediction": "The last magic number is 33289.\n\nThe answer is: The last magic number is 33289.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "band_low_only",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 3,
+   "n_tokens": 8196,
+   "numbers": [
+    82722,
+    37804,
+    57758
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "57758",
+   "prediction": "The last magic number is 57758.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "band_low_only",
+   "method": "direct",
+   "factor": 1.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 4,
+   "n_tokens": 8196,
+   "numbers": [
+    43471,
+    85444,
+    92318
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "92318",
+   "prediction": "The last magic number is 92318.",
+   "score": 100.0,
+   "emitted_rank": 2
+  },
+  {
+   "variant": "pi_x8",
+   "method": "pi",
+   "factor": 8.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 0,
+   "n_tokens": 8196,
+   "numbers": [
+    21538,
+    18191,
+    53388
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "21538",
+   "prediction": "is the the the      111111388......",
+   "score": 1.379310344827587,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "pi_x8",
+   "method": "pi",
+   "factor": 8.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 1,
+   "n_tokens": 8196,
+   "numbers": [
+    95852,
+    66656,
+    42882
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "95852",
+   "prediction": "is the the the      111111100......",
+   "score": 1.379310344827587,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "pi_x8",
+   "method": "pi",
+   "factor": 8.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 2,
+   "n_tokens": 8195,
+   "numbers": [
+    9129,
+    92009,
+    62514
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "9129",
+   "prediction": "is the the the      111111000......",
+   "score": 1.428571428571428,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "pi_x8",
+   "method": "pi",
+   "factor": 8.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 3,
+   "n_tokens": 8196,
+   "numbers": [
+    15660,
+    83277,
+    77485
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "15660",
+   "prediction": "is the the the      111111000......",
+   "score": 1.379310344827587,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "pi_x8",
+   "method": "pi",
+   "factor": 8.0,
+   "context_tokens": 8192,
+   "question": "first",
+   "sample": 4,
+   "n_tokens": 8196,
+   "numbers": [
+    54423,
+    73584,
+    96513
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "54423",
+   "prediction": "is the the the      111111100......",
+   "score": 1.379310344827587,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "pi_x8",
+   "method": "pi",
+   "factor": 8.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 0,
+   "n_tokens": 8194,
+   "numbers": [
+    4264,
+    2916,
+    22738
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "22738",
+   "prediction": "is is the the the the the the magic the magic magic magic magic magic magic of of of of of the the magic the? magic magic",
+   "score": 2.947368421052632,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "pi_x8",
+   "method": "pi",
+   "factor": 8.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 1,
+   "n_tokens": 8195,
+   "numbers": [
+    66470,
+    3134,
+    47873
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "47873",
+   "prediction": "not appears not in in in in in in the the the the the the document document document document document document..... .",
+   "score": 2.268041237113403,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "pi_x8",
+   "method": "pi",
+   "factor": 8.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 2,
+   "n_tokens": 8196,
+   "numbers": [
+    80626,
+    18919,
+    33289
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "33289",
+   "prediction": "is is  the the     the111111000......",
+   "score": 1.379310344827587,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "pi_x8",
+   "method": "pi",
+   "factor": 8.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 3,
+   "n_tokens": 8196,
+   "numbers": [
+    82722,
+    37804,
+    57758
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "57758",
+   "prediction": "is the the the      111111000......",
+   "score": 1.379310344827587,
+   "emitted_rank": "none"
+  },
+  {
+   "variant": "pi_x8",
+   "method": "pi",
+   "factor": 8.0,
+   "context_tokens": 8192,
+   "question": "last",
+   "sample": 4,
+   "n_tokens": 8196,
+   "numbers": [
+    43471,
+    85444,
+    92318
+   ],
+   "needle_depths": [
+    0.15,
+    0.5,
+    0.85
+   ],
+   "keyword": "92318",
+   "prediction": "is is the the the the the the magic the magic magic magic magic number magic of of of of of magic the the the the magic magic",
+   "score": 3.6734693877551017,
+   "emitted_rank": "none"
+  }
+ ]
+}

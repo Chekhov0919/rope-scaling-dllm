@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 程宇翔
+Copyright (c) 2027 Yuxiang Cheng, Quanwei Tang, Fang Kong, Dong Zhang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Model weights (LLaDA-8B, LLaDA-8B-Base) and the LongLLaDA release are not
+included here and remain under their own licenses.
