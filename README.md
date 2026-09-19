@@ -242,5 +242,7 @@ twenty GPU-hours on a single 48 GB GPU.
 
 ## Licence
 
-Code is released under the MIT Licence. Model weights are governed by their own
-licences and are not included here.
+Code is released under the MIT Licence (see `LICENSE`).
+
+The model weights (LLaDA-8B, LLaDA-8B-Base) and the LongLLaDA release are not
+included in this repository and remain under their own licences.
